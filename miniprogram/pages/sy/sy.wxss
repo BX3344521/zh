@@ -1,0 +1,55 @@
+.task-box {
+
+  width: 700rpx;
+  height: 700rpx;
+  display: flex;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*父元素位置要设置为相对*/
+}
+
+.task-box .circle1 {
+  position: absolute;
+  /* 要约束所在位置的子元素的位置要设置成绝对 */
+  width: 400rpx;
+  height: 400rpx;
+  border: 0 solid #ffffff;
+  border-radius: 500px;
+  box-shadow: 0px 0px 0px #cccccc;
+  vertical-align: middle;
+  display: table-cell;
+  color: white;
+  font-size: 50rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  /* 块元素居中 */
+  margin-right: auto;
+
+}
+
+
+.view-bg-arc {
+
+  background-color: #20C6B7;
+
+  width: 750rpx;
+
+  height: 800rpx;
+
+  border-radius: 330rpx;
+
+  margin-top: -1000rpx;
+
+}
+
+.item_root {
+  width: 50rpx;
+  height: 100rpx;
+  background-color:  #20C6B7;
+  display: flex;
+  flex-direction: column;
+}

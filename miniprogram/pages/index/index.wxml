@@ -1,0 +1,13 @@
+<view class="box">
+  <view class='item_root' bindtap='chuantupian'>
+    <button class='item_root'>上传图片</button>
+    <view class='right_arrow' />
+  </view>
+  <!-- <view class="add-address" bindtap="addAddress">
+    <button class='item_root'>收货地址</button>
+  </view> -->
+  <view class="add" bindtap="addAddress1">
+    <button class='item_root'>快递信息</button>
+  </view>
+</view>
+

@@ -1,0 +1,12 @@
+<view class='a' wx:for="{{ne}}">
+  <!--wx:for是微信数据绑定的一种方式，该数组有多少数据就显示多少个view-->
+  <!--index为每个数据对应的下标-->
+  <view class="DingDan">
+    <view class="dd">订单：{{index+1}}</view>
+    <!--item就相当于数组名+下标的结合体，适用于调用数组所有数据-->
+    <view>用户名：{{item.username}}</view>
+    <view>电话号码：{{item.phone}}</view>
+    <view>快递信息：{{item.kd}}</view>
+    <view>宿舍信息：{{item.ss}}</view>
+  </view>
+</view>

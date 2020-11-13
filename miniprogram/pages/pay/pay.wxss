@@ -1,0 +1,24 @@
+button::after{ 
+	border: none; 
+}
+
+button {
+    margin-top: 100px;
+    width: 300px;
+    border-radius: 30px;
+    background: #673bb7;
+    color: white;
+    padding: 0rpx 100rpx;
+}
+.dd {
+
+    display: flex;
+  
+    align-items: center;
+  
+    justify-content: center;
+  
+  }
+  .DingDan{
+      background: burlywood;
+  }

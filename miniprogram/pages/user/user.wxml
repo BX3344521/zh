@@ -1,0 +1,20 @@
+<view class="userinfo">
+  <view class="userinfo-avatar">
+    <open-data type="userAvatarUrl"></open-data>
+  </view>
+  <open-data type="userNickName"></open-data>
+</view>
+
+<navigator url="../demo05/demo05">
+  <view class="list-title">
+    <view class="left">使用说明</view>
+    <view class="right">></view>
+  </view>
+</navigator>
+
+<navigator url="../demo05/demo05">
+  <view class="list-title">
+    <view class="left">在线客服</view>
+    <view class="right">></view>
+  </view>
+</navigator>

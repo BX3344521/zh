@@ -1,0 +1,21 @@
+<view class='view-container-bg'>
+  <view class='task-box'>
+    <button type="primary" class="circle1" bindtap="gotoPage1" style="margin: 30rpx 10rpx 25rpx 25rpx ;">发布委托</button>
+  </view>
+  <view class='view-bg-white'>
+    <view class='view-bg-arc'>
+    </view>
+  </view>
+</view>
+<view class="dr">
+  <view class="add-address" bindtap="addAddress">
+    <button class='item_root' bindtap="gotoPage2" style="margin: 100rpx 10rpx 25rpx 200rpx ;">我的订单</button>
+  </view>
+  <view class="add-address" bindtap="addAddress">
+    <button class='item_root' bindtap="gotoPage3" style="margin: 100rpx 10rpx 25rpx 200rpx ;">个人中心</button>
+  </view>
+  <view class="add-address" bindtap="addAddress">
+    <button class='item_root' bindtap="gotoPage4" style="margin: 100rpx 10rpx 25rpx 200rpx ;">在线客服</button>
+  </view>
+</view>
+

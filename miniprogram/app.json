@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/sy/sy", 
+    "pages/index/index", 
+    "pages/dz/dz", 
+    "pages/lookFor/lookFor", 
+    "pages/take/take", 
+    "pages/user/user",
+    "pages/login/login",
+    "pages/auth/auth",
+    "pages/pay/pay",
+    "pages/address/address",  
+    "pages/addressList/addressList",
+    "pages/search/fsearch",
+    "pages/feedback/feedback"
+  ],
+  "window": {
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "速递",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
+    
+  },
+ 
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

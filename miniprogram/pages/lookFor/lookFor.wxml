@@ -1,0 +1,37 @@
+<!-- <view class='forms'>
+  <form bindsubmit='getForm'>
+    <view class='getform'>
+      <view>姓名:
+        <input type='text' name='username' type="text" placeholder='请输入你的名字' />
+      </view>
+      <view>电话号码:
+        <input type='text' name='phone' type="number" placeholder='请输入你的电话号码'></input>
+      </view>
+      <view>快递信息:
+        <input type='text' name='kd' type="text" placeholder='请输入快递信息'></input>
+      </view>
+    </view>
+    <view class="btn-area">
+      <button formType="submit">提交</button>
+    </view>
+  </form>
+
+  <view class="btn-area">
+    <button bindtap='getData'>Get</button>
+  </view>
+</view> -->
+<form bindsubmit='res'>
+  <view>姓名:
+    <input type='text' name='username' type="text" placeholder='请输入你的名字' />
+  </view>
+  <view>电话号码:
+    <input type='text' name='phone' type="number" placeholder='请输入你的电话号码'></input>
+  </view>
+  <view>快递信息:
+    <input type='text' name='kd' type="text" placeholder='请输入快递信息'></input>
+  </view>
+  <view>宿舍地址:
+    <input type='text' name='ss' type="text" placeholder='请输入宿舍信息'></input>
+  </view>
+  <view><button form-type='submit'>提交</button></view>
+</form>
